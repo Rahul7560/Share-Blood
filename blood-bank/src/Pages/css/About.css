@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@600&family=Ubuntu&display=swap');
+
+.abouthead > h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 20px  rgba(185, 182, 182, 0.466);
+
+    font-size: 40px;
+    color:  rgb(250, 55, 33);
+
+
+}
+.about_start{
+    height: 200px;
+    display: grid;
+    background-image: linear-gradient( 143.3deg,  rgba(216,27,96,1) 33.1%, rgba(237,107,154,1) 74.9% );    place-content: center;
+    border-radius: 0px 0px 20% 50% 20%;
+}
+.about_start > div > h3{
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+
+}
+.about_start > div > p{
+    font-size: 25px;
+font-weight: 500;
+}
+.abouthead > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 60px;
+    
+
+}
+p{
+    font-size: 17.3px;
+}
+
+
+.rowabout{
+    margin: auto;
+
+
+}
+.rowabout > div {
+    min-width: 280px;
+    height: 300px;
+    margin:  10px auto;
+    background-color: white;
+    border: solid rgba(250, 128, 114, 0.288);
+    
+
+}
+
+.abouticon{
+    margin-top: 20px;
+    
+    font-size: 60px !important;
+    color: rgb(248, 68, 68);
+
+}
+.rowabout > div > h3  {
+    text-align: center;
+    color: rgb(105, 35, 10);
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.rowabout > div > p  {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+}
+
+@media only screen and ( max-width:600px){
+    .abouthead > h3 {
+     
+        font-size: 28px;
+    
+    
+    }
+  
+    .about_start > div > h3{
+        font-size: 35px;
+    
+    }
+    .about_start > div > p{
+        font-size: 23px;
+    }
+    .abouthead > p {
+        text-align: center;
+        font-weight: bold;
+        font-size: medium;
+        margin-bottom: 60px;
+        
+    
+    }
+    p{
+        font-size: 17.3px;
+    }
+    
+    
+    .rowabout{
+        margin: auto;
+    
+    
+    }
+    .rowabout > div {
+        min-width: 280px;
+        height: 300px;
+        margin:  10px auto;
+        background-color: white;
+        border: solid rgba(250, 128, 114, 0.288);
+        
+    
+    }
+    
+    .abouticon{
+        margin-top: 20px;
+        
+        font-size: 60px !important;
+        color: rgb(248, 68, 68);
+    
+    }
+    .rowabout > div > h3  {
+        text-align: center;
+        color: rgb(105, 35, 10);
+        margin-top: 10px;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    .rowabout > div > p  {
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+    
+        
+    }
+
+}

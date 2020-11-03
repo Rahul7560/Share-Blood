@@ -1,0 +1,61 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous')
+link(href='https://fonts.googleapis.com/css2?family=Fredoka+One&family=Prompt:wght@500&display=swap' rel='stylesheet')
+style.
+  #main {
+  padding: 20px;
+  background-color: rgb(150, 26, 26);
+  color: white;
+  font-family: 'Prompt', sans-serif;
+  }
+  .tbh {
+  background-color: rgb(150, 26, 26);
+  max-width: 500px;
+  }
+  #main>img {
+  width: 100px;
+  height: 80px;
+  }
+  #main>h3>strong {
+  font-family: 'Fredoka One', cursive;
+  font-size: large;
+  font-weight: 900;
+  }
+  #main>h3 {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 200;
+  font-size: larger;
+  }
+  h2 {
+  font-size: larger;
+  }
+#main(align='center')
+  img(src='https://drive.google.com/u/0/uc?id=121QhIiE1h3Jl8lBGh7A6QizmKf0jZDr3&export=download')
+  h3
+    strong  Share 
+    |  Blood
+  h1  #{blood} Required
+  h2  More details are given below please contact him as soon as possible 
+  table.table.table-bordered.tbh
+    thead
+      tr
+        th(scope='col') Name
+        th(scope='col') #{fname}
+    tbody
+      tr
+        th(scope='row') Contact 1
+        td #{contact1}
+      tr
+        th(scope='row') Contact 2
+        td #{contact2}
+      tr
+        th(scope='row') Contact 3
+        td #{contact3}
+      tr
+        th(scope='row') Hospital
+        td #{hospital}
+  p  Note : Requested person is in your near area/district 
+  p  

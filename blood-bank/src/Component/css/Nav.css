@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Prompt:wght@500&display=swap');
+
+.navbar{
+    padding: 0;
+}
+
+.Headicon{
+    background: url('./bg.jpg');
+
+
+}
+.Headicon2{
+    background-color: rgba(228, 23, 23, 0.377);
+    padding: 10px;
+}
+
+.Headicon > div> img{
+    width: 120px;
+    height:80px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 20px #222);
+}
+.Headicon > div>h3{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font: size 34px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+
+}
+span{
+   font-family: 'Prompt', sans-serif;
+   font-weight: 200;
+    
+
+}
+
+.Registration{
+    width: 100%;
+}
+@media only screen and (max-width:600px){
+    .Headicon{
+        background: #861515;
+    }
+    .Headicon2{
+        background-color: rgba(228, 23, 23, 0);
+        padding: 10px;
+    }
+ 
+
+}

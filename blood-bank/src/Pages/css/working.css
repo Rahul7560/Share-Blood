@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.loader{
+    height: 60vh;
+    display: grid;
+    place-content: center;
+}
+.shareButton{
+    color: whitesmoke !important;
+    border: solid white !important;
+}
+.shareButton > strong{
+    font-weight: bolder;
+}
+.shareButton:hover{
+    background-color: rebeccapurple !important;
+}
+.donatestart{
+    height: 200px;
+    display: grid;
+    place-content: center;
+    border-radius: 0px 0px 20% 50% 20%;
+    background-image: radial-gradient( circle 700px at 10% 20%,  rgba(240,19,19,1) 0%, rgba(144,13,13,1) 100.2% );
+}
+.donatestart > div > h3{
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+
+}
+.donatestart > div > p{
+    font-size: 25px;
+font-weight: 500;
+}
+.donatestart > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 60px;
+    
+
+}
+.working_Main{
+
+    margin-top: 50px;
+    display: grid;
+    place-content: center;
+    width: 900px;
+
+
+
+
+}
+.about_start{
+    height: 200px;
+    display: grid;
+    background-image: linear-gradient( 143.3deg,  rgba(216,27,96,1) 33.1%, rgba(237,107,154,1) 74.9% );    place-content: center;
+    border-radius: 0px 0px 20% 50% 20%;
+}
+.about_start > div > h3{
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+
+}
+.about_start > div > p{
+    font-size: 25px;
+font-weight: 500;
+}
+    
+.working_explain > h3{
+max-width: 400px;
+font-size: medium;
+font-family: 'Fredoka One', cursive;
+
+
+}
+.working_explain > h2{
+    font-family: 'Fredoka One', cursive;
+    color: rgb(184, 43, 43);
+    
+    
+    }
+.working_explain_col{
+    min-width: 260px;
+    height: 300px;
+    margin:  20px auto;
+ }
+
+.working_explain_col > img{
+    width: 100px;
+
+}
+.working_explain_col  > h5 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+.working_explain_col  > p {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+    font-weight: 500;
+    color: rgb(97, 96, 96);
+
+}
+
+.buttonmain{
+ 
+    width: inherit;
+
+}
+.buttonmain > div >  button{
+    border: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    word-spacing: 10px;
+
+    
+}
+.textfeilds{
+    width: 350px;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+
+
+
+}
+#outlined-basic{
+    color: red !important;
+}
+#firstform{
+
+
+   
+    border: solid   #9a1f40;
+}
+.buttonmain1{
+    background-color: #9a1f40;
+
+
+
+
+}
+.buttonmain1:hover{
+    background-color: #fd356a;
+
+
+
+
+}
+.buttonmain2:hover{
+    background-color: #fd356a;
+
+
+
+
+}
+.buttonmain2{
+    background-color: #b5076b;
+}
+.registrationForm{
+    display: grid;
+    place-content: center;
+    width: inherit;
+ 
+    
+}
+#secondform{
+    display: none;
+    border: solid   #b5076b;
+
+}
+.registerhead{
+    width: inherit;
+    border-left: solid   #9a1f40;
+    border-right: solid   #9a1f40;
+
+   
+
+    background-color: #ececec;
+}
+.registerhead2{
+    width: inherit;
+    border-left: solid   #b5076b;
+    border-right: solid  #b5076b;
+
+   
+
+    background:  rgba(167, 23, 23, 0.055);
+
+}
+.registerhead > h3{
+    color: #9a1f40;
+    font-weight: bolder;
+    font-size: 45px;
+
+}
+.registerhead2 > h3{
+    color:#b5076b;
+    font-weight: bolder;
+    font-size: 45px;
+
+}
+.registerhead > p{
+    color: #490d1d;
+ 
+
+}
+.registerhead2 > p{
+    color: #490d1d;
+ 
+
+}
+
+
+.buttonsubmit > button{
+    font-weight: bold;
+    background-color:#b5076b; 
+    border: none;
+    color: white;
+    
+
+}
+@keyframes fadeIn{
+    from{opacity:0}to{opacity:1}
+}
+.registrationtext{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-bottom: none !important;
+    text-indent: 10px !important;
+
+}
+
+#filled-secondary{
+margin-left:10px;
+
+} 
+
+.registrationforminput > label{
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:900px){
+    .working_Main{
+        width: 300px;
+    }
+    .buttonmain{
+       width: inherit;
+
+
+
+
+        
+
+    }
+    .registerhead{
+        width: inherit;
+        
+    
+
+    }
+    .registerhead > h3{
+        
+        font-size: 30px;
+        text-align: center;
+    
+    }
+    .registerhead > h4{
+        
+        font-size: 20px;
+        text-align: center;
+    
+        
+    }
+    .registerhead2{
+        width: inherit;
+        
+    
+
+    }
+    .working_explain_col{
+        border: solid rgba(206, 35, 35, 0.637);
+        border-radius: 10px;
+        margin: 20px;
+
+        box-shadow: 5px 5px 0px rgba(255, 4, 4, 0.438);
+    }
+    .working_explain_col > img{
+        margin-top: 30px;
+    }
+    .registerhead2 > h3{
+        
+        font-size: 30px;
+        text-align: center;
+    
+    }
+    .registerhead2 > h4{
+        
+        font-size: 20px;
+    
+
+    }
+    .about_start > div > h3{
+        font-size: 35px;
+    
+    }
+    .about_start > div > p{
+        font-size: 23px;
+    }
+ 
+   
+ 
+   
+    #secondform{
+        background: white;
+
+    }
+    
+    .registrationforminput{
+        border-left: solid   #9a1f40;
+        border-right: solid   #9a1f40;
+            background: white;
+        max-width: 300px;
+
+    
+
+      
+        }
+        .registrationforminput > div{
+            display: grid;
+            place-content: center;
+        }
+        .textfeilds{
+           width: 270px;
+           margin-right: 0px !important;
+           margin-left: 0px !important;
+                   
+        }
+
+    
+       
+   
+    .buttonmain > div >  button{
+        padding: 10px;
+        border: none;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bolder;
+        font-size: 14px;
+    
+        
+    }
+}

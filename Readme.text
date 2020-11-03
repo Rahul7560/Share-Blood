@@ -1,0 +1,14 @@
+You need to have account on mongo db atlas, email id , razorpay account ,
+
+
+Once You created all of these you can see a .env file inside backendfolder . 
+You have to edit the values as per you new accounts
+
+After that you have to upload backend file in heroku later you have to replace fetch urls in react working and donation page with  the heroic custom domain address for your app
+
+
+That all
+Happy Coding 
+If you have any doubts ping me mail on rahulramesh125@gmail.com  
+
+Or else you can ask on this telegram channel t.me/reactjsprivate

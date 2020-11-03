@@ -1,0 +1,23 @@
+.navbars{
+    background-color: #861515;
+    display: grid;
+    place-content: center;
+    box-shadow:  0  4px 5px rgba(0, 0, 0, 0.644) ;
+    
+}
+.navbarbs{
+width: 500px;
+  
+}
+@media only screen and ( max-width:600px){
+    .navbarbs{
+        width: 300px;
+        
+          
+        }  
+}
+.MDBNavLink{
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+
+}
